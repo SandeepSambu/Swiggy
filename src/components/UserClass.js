@@ -42,7 +42,7 @@ class UserClass extends React.Component {
 
     return (
       <div className="about">
-        <h1>Name: {name}</h1>
+        <h1>Name: {"Sai Sandeep Sambu"}</h1>
         <h2>Location: {location}</h2>
         <h3>Email: abc@gmail.com</h3>
       </div>

@@ -17,7 +17,6 @@ class About extends Component {
     console.log("Parents render");
     return (
       <div className="about">
-        <h1>This is AboutUS page</h1>
         <UserClass name={"First Child"} location={"US Class"} />
       </div>
     );

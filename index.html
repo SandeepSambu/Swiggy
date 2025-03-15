@@ -9,6 +9,9 @@
   <body>
     <div id="root"></div>
 
+    <!--Here we added " type="module" " because if we don't add it then the HTML thinks "index.js" as a normal JavaScript file. And the 
+  normal JavaScript files doesn't work if it has imports and exports. So inorder for the imports and exports to work we transform this 
+  JavaScript file to a module by adding " type= "module" "-->
     <script type="module" src="./src/index.js"></script>
   </body>
 </html>
